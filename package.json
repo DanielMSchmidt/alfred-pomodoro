@@ -1,0 +1,40 @@
+{
+  "name": "alfred-pomodoro",
+  "version": "0.1.2",
+  "description": "Alfred 3 workflow to start a pomodoro",
+  "license": "MIT",
+  "repository": "danielmschmidt/alfred-pomodoro",
+  "author": {
+    "name": "Daniel Schmidt",
+    "email": "danielmschmidt92@gmail.com",
+    "url": "http://danielmschmidt.de"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "setConfig.js",
+    "info.plist"
+  ],
+  "keywords": [
+    "pomodoro",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfred-notifier": "^0.2.3",
+    "alfy": "^0.6.0",
+    "node-ifttt-maker": "^1.0.0"
+  },
+  "devDependencies": {
+    "xo": "*"
+  }
+}
