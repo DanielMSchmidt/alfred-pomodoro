@@ -13,7 +13,6 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
