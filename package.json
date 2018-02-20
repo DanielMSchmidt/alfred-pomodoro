@@ -1,6 +1,6 @@
 {
   "name": "alfred-pomodoro",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Alfred 3 workflow to start a pomodoro",
   "license": "MIT",
   "repository": "danielmschmidt/alfred-pomodoro",
