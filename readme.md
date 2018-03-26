@@ -24,7 +24,7 @@ Optionally, if you'd like to have a google calendar event and a Rescue Time Focu
 
 ## Usage
 
-Start your first pomodoro with alfred by typing `pomodoro`
+Start your first pomodoro with alfred by typing `pomodoro`. This will start the pomodoro, will tell it IFTTT and set the Do not Disturb Modus to on.
 
 ## License
 
